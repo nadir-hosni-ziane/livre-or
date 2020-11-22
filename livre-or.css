@@ -1,0 +1,571 @@
+/* POLICE */
+
+@font-face {
+    font-family: "naruto";
+    src: url(polices-ttf/naruto.ttf);
+}
+
+@font-face {
+    font-family: "pol";
+    src: url(polices-ttf/shanghai.ttf);
+}
+
+@font-face {
+    font-family: "essaie";
+    src: url(polices-ttf/ecriture.ttf);
+}
+
+@font-face {
+    font-family: "haru";
+    src: url(polices-ttf/Harukaze.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.185);
+    color: black;
+    font-family: "essaie";
+    font-size: 18px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+
+.carrercroix {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.514);
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.411);
+}
+
+h3 {
+    font-family: "essaie";
+}
+
+h1 {
+    font-family: "haru";
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.459);
+}
+
+h4 {
+    font-family: "haru";
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.459);
+}
+
+.centre {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ajout-com {
+    border: 2px solid rgba(252, 252, 252, 0.863);
+    border-radius: 15px;
+    width: 350px;
+    height: 80px;
+    background-image: url(images-or/riri.png);
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px rgb(44, 42, 42);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.705);
+}
+
+.aj {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+/* HEADER */
+
+.titre1 {
+    display: flex;
+    justify-content: center;
+    font-family: "pol";
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin-top: 35px;
+    opacity: 95%;
+    height: 120px;
+    width: 450px;
+    margin-right: 450px;
+}
+
+.autre {
+    font-family: "pol";
+    font-size: 40px;
+}
+
+nav {
+    font-family: 'Goldman', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.head-accueil {
+    background-image: url(images-or/fond.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border: 2px solid white;
+}
+
+header nav li {
+    display: flex;
+    justify-content: center;
+    font-family: 'Goldman', cursive;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    opacity: 95%;
+    height: 40px;
+    width: 160px;
+    margin: 0 15px;
+    margin-top: 75px;
+    text-decoration: none;
+}
+
+.encart {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* PAGE ACCEUIL */
+
+.text-pres {
+    width: 1000px;
+    height: 260px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-left: 15%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.textpres {
+    font-family: "essaie";
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.amv1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.amv {
+    height: 500px;
+    width: 800px;
+    margin-top: 150px;
+}
+
+.uchiha {
+    width: 150px;
+    height: 175px;
+    margin-top: 275px;
+}
+
+.indexfond {
+    background-image: url(images-or/kono.png);
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+.akatsuki {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.logo-naruto {
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.main-contains {
+    background-image: url(https://waterchildren.files.wordpress.com/2015/09/japanese-paper-03.jpg);
+    width: 1400px;
+    height: 5100px;
+    border: 1px solid black;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.site {
+    width: 1400px;
+    height: 2600px;
+    background-color: coral;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.cinqvillage {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.village {
+    width: 400px;
+    height: 380px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid black;
+    text-align: center;
+    background: #00000080;
+    color: white;
+    font-size: 15px;
+    text-shadow: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.symbole {
+    width: 100px;
+    height: 100px;
+}
+
+.cachotier {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cacher {
+    font-family: "naruto";
+    font-size: medium;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    color: black;
+}
+
+p {
+    font-family: "essaie";
+    color: white;
+    font-size: 17px;
+}
+
+.ecriture {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.akatsuki {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.aka {
+    width: 70%;
+}
+
+.tableauaka {
+    width: 1000px;
+    height: 1250px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* PAGE FORMULAIRE */
+
+.body2 {
+    background-image: url(images-or/wallpaper.jpg);
+}
+
+.formulaire {
+    font-family: "haru";
+    width: 625px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 3px 3px rgba(10, 10, 10, 0.493);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+    margin-left: 33%;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.meme {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.meme2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.meme3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.logouchiha {
+    opacity: 95%;
+    width: 100px;
+    height: 100px;
+}
+
+.act2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: "pol";
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-image: url(https://i.ytimg.com/vi/3G0p5tcwXSE/maxresdefault.jpg);
+    width: 100%;
+    height: 250px;
+}
+
+.footer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signature {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    margin-top: 85px;
+}
+
+.logofooter {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+}
+
+.nav2 {
+    color: white;
+    margin-top: 100px;
+}
+
+.nav2 .li2 {
+    font-family: 'Wallpoet', cursive;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.symbole-head {
+    margin-top: 50px;
+    width: 130px;
+    height: 130px;
+}
+
+
+/* PAGE AJOUT COMMENTAIRE */
+
+.body3 {
+    background-image: url(images-or/wallapaper2.jpg);
+    background-size: cover;
+}
+
+.comcom {
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.comiss {
+    width: 120px;
+    height: 120px;
+}
+
+
+/* PAGE CONNEXION */
+
+.bodynadirA {
+    background-image: url(images-or/profil.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.formulaire3 {
+    font-family: "haru";
+    width: 500px;
+    height: 370px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: white;
+    font-size: 18px;
+    margin-left: 35%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.un {
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.deux {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-right: 160px;
+    color: white;
+}
+
+.trois {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 61px;
+    color: white;
+}
+
+.logojashin {
+    opacity: 95%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.act2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 55px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: "haru";
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    color: white;
+}
+
+.cadreA {
+    opacity: 85%;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+.B {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: 'haru', cursive;
+    color: white;
+}
+
+.cadreB {
+    opacity: 85%;
+    margin-left: 200px;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.enbas2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+
+/*PAGE LIVRE OR*/
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-family: "essaie";
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.315);
+}
+
+th,
+td {
+    border: 2px solid rgba(0, 0, 0, 0.973);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.com {
+    width: 600px;
+}
+
+.tableaucentre {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
